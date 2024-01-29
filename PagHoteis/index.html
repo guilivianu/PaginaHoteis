@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Home page</title>
+  </head>
+  <body class="bg-gray-50 text-gray-600">
+    <!-- HEADER -->
+    <div>
+      <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center">
+        <div class="font-black text-cyan-900 text-2xl">LOGO</div>
+
+        <ul class="ml-auto">
+          <li class="space-x-2">
+            <a href="" class="text-sm hover:text-gray-800 hover:underline"
+              >Como reservar</a
+            >
+            <a href="" class="text-sm hover:text-gray-800 hover:underline"
+              >Sobre nós</a
+            >
+            <a href="" class="text-sm hover:text-gray-800 hover:underline"
+              >Informações</a
+            >
+            <a href="" class="text-sm hover:text-gray-800 hover:underline"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- /HEADER -->
+
+    <!-- BANNER -->
+    <div style="background: url(./src/img/hero-image-1.jpg); height: 450px">
+      <div
+        class="container max-w-5xl mx-auto px-4 h-full flex items-center justify-center"
+      >
+        <div>
+          <div class="text-center">
+            <h1 class="text-gray-100 text-4xl mb-2">Onde você quer ir?</h1>
+            <p class="text-green-100">
+              Escolha o estado e cidade para achar os melhores resorts.
+            </p>
+          </div>
+
+          <div class="mt-7">
+            <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+              <select
+                class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500"
+              >
+                <option value="">Escolha o estado</option>
+              </select>
+
+              <select
+                class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500"
+              >
+                <option value="">Escolha a cidade</option>
+              </select>
+
+              <button
+                class="col-span-2 lg:col-span-1 inline-flex items-center justify-center bg-yellow-500 px-3 py-2 rounded text-yellow-900 font-medium"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-4 h-4 mr-2"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                Pesquisar resorts
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /BANNER -->
+
+    <!-- FEATURED -->
+    <div>
+      <div class="container max-w-5xl mx-auto px-4 py-20">
+        <div class="flex flex-col-reverse lg:flex-row">
+          <div class="lg:pr-10">
+            <div class="text-sm text-gray-400 font-medium">
+              RESORT EM DESTAQUE
+            </div>
+            <div class="text-2xl text-gray-500">Iberostar Punta Cana</div>
+            <div class="text-sm text-gray-400 font-medium mt-2">
+              Hotel qualidade 5 estrelas
+            </div>
+            <div class="mt-4">
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                voluptatem enim et maxime sint maiores deleniti dignissimos
+                sequi eveniet illum consequatur quasi assumenda ducimus,
+                quibusdam odio deserunt dolor repudiandae. Fugiat?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate, minus omnis ut voluptate natus non ratione quaerat
+                aperiam tempora voluptatem in deleniti, porro explicabo
+                praesentium facilis illo blanditiis libero amet.
+              </p>
+            </div>
+            <a
+              href=""
+              class="inline-flex items-center bg-yellow-500 px-3 py-2 rounded text-yellow-900 font-medium mt-4"
+              >Solicitar reserva
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-4 h-4 ml-3"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div
+            class="flex-shrink-0 lg:ml-auto mb-5 lg:mb-0 flex items-center justify-center"
+          >
+            <div>
+              <img
+                class="mb-4 rounded-lg"
+                src="./src/img/featured-img.jpg"
+                width="450"
+              />
+              <div class="flex gap-2 justify-center">
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-orange-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /FEATURED -->
+
+    <!-- RESORTS GRID -->
+    <div>
+      <div class="container max-w-5xl mx-auto px-4">
+        <div>
+          <h3 class="text-2xl text-gray-500 font-semibold text-center mb-8">
+            Conheça mais resorts
+          </h3>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-6">
+            <!-- RESORT 1 -->
+            <div
+              class="relative md:col-span-2 md:row-span-2 rounded-lg overflow-hidden"
+            >
+              <div
+                class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20"
+              >
+                Man Made Resort
+              </div>
+              <div class="grid grid-cols-2 absolute bottom-0">
+                <img src="./src/img/shadow.png" />
+                <img src="./src/img/shadow.png" />
+              </div>
+              <img
+                src="./src/img/resort-1.jpg"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- RESORT 2 -->
+            <div
+              class="relative md:col-span-2 md:h-40 rounded-lg overflow-hidden"
+            >
+              <div
+                class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20"
+              >
+                Costa Adeje
+              </div>
+              <div class="grid grid-cols-2 absolute bottom-0">
+                <img src="./src/img/shadow.png" />
+                <img src="./src/img/shadow.png" />
+              </div>
+              <img
+                src="./src/img/resort-2.jpg"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- RESORT 3 -->
+            <div class="relative rounded-lg overflow-hidden">
+              <div
+                class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20"
+              >
+                Maldives Beach
+              </div>
+              <img src="./src/img/shadow.png" class="absolute bottom-0" />
+              <img
+                src="./src/img/resort-3.jpg"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- RESORT 4 -->
+            <div class="relative rounded-lg overflow-hidden">
+              <div
+                class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20"
+              >
+                Summerville Resort
+              </div>
+              <img src="./src/img/shadow.png" class="absolute bottom-0" />
+              <img
+                src="./src/img/resort-4.jpg"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /RESORTS GRID -->
+
+    <!-- FORM SEARCH -->
+    <div class="py-20">
+      <div class="container max-w-5xl mx-auto px-4 flex justify-center">
+        <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+          <select
+            class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500"
+          >
+            <option value="">Escolha o estado</option>
+          </select>
+
+          <select
+            class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500"
+          >
+            <option value="">Escolha a cidade</option>
+          </select>
+
+          <button
+            class="col-span-2 lg:col-span-1 inline-flex items-center justify-center bg-yellow-500 px-3 py-2 rounded text-yellow-900 font-medium"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-4 h-4 mr-2"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            Pesquisar resorts
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- /FORM SEARCH -->
+
+    <!-- FOOTER -->
+    <div class="border-t border-gray-200">
+      <div
+        class="container max-w-5xl mx-auto px-4 h-24 flex items-center justify-between"
+      >
+        <div class="font-black text-gray-400 text-2xl">LOGO</div>
+
+        <div class="flex items-center space-x-3">
+          <a href=""><img src="./src/img/icon-facebook.png" class="h-8" /></a>
+          <a href=""><img src="./src/img/icon-instagram.png" class="h-8" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- /FOOTER -->
+  </body>
+</html>
